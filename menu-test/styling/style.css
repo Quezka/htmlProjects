@@ -1,0 +1,74 @@
+body {
+    background-color: azure;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    position: static;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    background-color: #228b22;
+    color: #fcfcfc;
+}
+
+.menu {
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.menu ul {
+    width: 100%;
+    top: 0;
+    left: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow-x: hidden;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.menu ul li img {
+    padding: 0;
+    width: 150%; 
+    height: 150%;
+}
+
+.menu ul li a {
+    display: block;
+    color: #fcfcfc;
+    text-decoration: none;
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;   
+}
+
+.menu ul li a:hover, .menu ul li a:active {
+    background-color: #114111;
+}
+
+.main {
+    background-color: cornsilk;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.main .text {
+    background-color: cornsilk;
+    padding: 12px;
+}
+
+footer, footer p, footer a {
+    background-color: #228b22;
+    color: cornsilk;
+    bottom: 0;
+    position: static;
+    padding: 12px;
+}
