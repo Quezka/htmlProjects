@@ -9,8 +9,12 @@ header {
     top: 0;
     width: 100%;
     margin: 0;
-    background-color: #32cf32;
+    background-color: #28b428;
     color: #fcfcfc;
+}
+
+header .menu {
+    background-color: #228b22;
 }
 
 .menu {
