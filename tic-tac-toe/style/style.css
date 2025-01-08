@@ -1,0 +1,21 @@
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 48px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+td:hover {
+    background-color: whitesmoke;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+h1 {
+    text-align: center;
+}
