@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Forme HTML + JS</title>
+        <script src="./script.js"></script>
+        <style>
+            body {
+                width: 95%;
+                height: 95%;
+                background-color: rgb(44, 74, 131);
+                color: whitesmoke;
+            }
+            #login {
+                transform: translate(-50%, -50%);
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+            }
+            #login h1 {
+                background-color: rgb(69, 146, 121);
+                padding: 5px;
+            }
+            #login form input{
+                padding: 5px;
+                margin: 5px;
+            }
+
+            #top {
+                position: absolute;
+                top: 0;
+                left: 0;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                background-color: rgb(69, 146, 121);
+            }
+            #title {
+                margin: 0;
+                padding: 0;
+                margin: 15px;
+            }
+
+            #menu {
+                list-style-type: none;
+                display: flex;
+                padding: 0;
+                margin: 20px;
+            }
+            #menu li {
+                margin-right: 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header id="top">
+            <h1 id="title">Form Test Web Site</h1>
+            <ul id="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a>Test</a></li>
+            </ul>
+        </header>
+        <div id="login">
+            <h1><i>Autorizzazione</i></h1>
+            <form onsubmit="verificaDati(event)">
+                <label for="testo">Testo: </label>
+                <input type="text" id="testo" placeholder="Inserire testo...">
+                <span id="testoScritta"></span>
+                <br>
+                <label for="numero">Numero: </label>
+                <input type="number" id="numero" placeholder="Inserire numero...">
+                <span id="numeroScritta"></span>
+                <br>
+                <input type="submit" value="Verifica">
+            </form>
+        </div>
+    </body>
+</html>
